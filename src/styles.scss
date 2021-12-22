@@ -1,0 +1,25 @@
+//@import '~@nciocpl/ncids-css/scss/base/required';
+//@import '~@nciocpl/ncids-css/scss/base/normalize';
+//@import '~@nciocpl/ncids-css/scss/base/global';
+//
+//@import "~@nciocpl/ncids-css/scss/components/usa-footer/nci-big";
+
+
+
+
+//@import '@nciocpl/ncids-css/scss/base/required';
+//@import '@nciocpl/ncids-css/scss/base/normalize';
+//@import '@nciocpl/ncids-css/scss/base/global';
+//
+//// TODO dependencies
+//@import '~uswds/dist/scss/elements/layout-grid';
+//@import '~uswds/dist/scss/elements/form-controls/global';
+//@import '~uswds/dist/scss/elements/form-controls/text-input';
+//@import '~uswds/dist/scss/elements/typography/list';
+//@import '~uswds/dist/scss/elements/buttons';
+//
+//@import '@nciocpl/ncids-css/scss/components/usa-footer/nci-big';
+
+.usa-footer__primary-content--collapsible.hidden ul {
+  display: none;
+}
