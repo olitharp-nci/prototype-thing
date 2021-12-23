@@ -1,26 +1,30 @@
-// todo styles borked
-import './styles.scss';
+// import './styles.scss';
 
 // todo error "Module is not installed"
 import { UsaFooter } from '@nciocpl/ncids-js';
 
 // create all accordions
 window.addEventListener('DOMContentLoaded', () => {
-    const elements = document.getElementsByClassName(
-        'usa-footer__primary-content--collapsible'
-    );
+    const elements = document.getElementsByClassName('usa-footer');
 
-    // loop through each collapse found and init
+    // loop through each footer found and init (should only be one footer, no looping needed IRL)
     [...elements].forEach((element) => {
-        UsaFooter.create(element);
-    });
-});
+        const footer = UsaFooter.create(element);
+        console.log(footer);
 
-// when accordion content toggles .hidden, do something
-const accordion = document.getElementById('accordion');
-accordion.addEventListener('hidden', () => {
-    console.log('hidden');
-});
-accordion.addEventListener('shown', () => {
-    console.log('shown');
+        // when footer content toggles .hidden, do something
+        footer.element.addEventListener(
+            'usa-footer:nav-links:collapse',
+            (event) => {
+                console.log('collapsed', event);
+            }
+        );
+
+        footer.element.addEventListener(
+            'usa-footer:nav-links:expand',
+            (event) => {
+                console.log('expanded', event);
+            }
+        );
+    });
 });
