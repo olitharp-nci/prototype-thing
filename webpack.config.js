@@ -5,8 +5,8 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 // The paths.
 const paths = {
-    public: path.resolve(__dirname, './public'),
-    dist: path.resolve(__dirname, 'dist'),
+    public: path.resolve(__dirname, 'public'),
+    dist: path.resolve(__dirname, 'docs'),
 };
 
 const config = {
@@ -36,42 +36,26 @@ const config = {
                 ],
             },
             {
-                test: /\.scss$/,
-                exclude: /node_modules/,
+                test: /\.s[ac]ss$/i,
                 use: [
-                    {
-                        loader: 'file-loader',
-                        options: { outputPath: 'css/', name: '[name].min.css' },
-                    },
-                    'extract-loader',
-                    'css-loader?-url',
-                    'postcss-loader',
+                    // Creates `style` nodes from JS strings
+                    'style-loader',
+                    // Translates CSS into CommonJS
+                    'css-loader',
                     {
                         loader: 'sass-loader',
                         options: {
+                            //webpackImporter: false,
+                            sourceMap: true,
                             sassOptions: {
                                 includePaths: [
                                     path.join(__dirname, 'node_modules'),
-                                    path.join(
-                                        __dirname,
-                                        '..',
-                                        '..',
-                                        'node_modules'
-                                    ),
                                 ],
                             },
                         },
                     },
                 ],
             },
-        ],
-    },
-    resolve: {
-        symlinks: false,
-        modules: [
-            path.resolve(__dirname, 'node_modules'),
-            'node_modules',
-            '../../node_modules',
         ],
     },
     plugins: [

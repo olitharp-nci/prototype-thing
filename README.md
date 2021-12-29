@@ -1,6 +1,6 @@
 # prototype-thing
 
-Empty project.
+Prototype for NCIDS-JS
 
 ## Building and running on localhost
 
@@ -25,7 +25,7 @@ npm run build-dev
 ## Running
 
 ```sh
-node dist/bundle.js
+npm run start
 ```
 
 ## Credits

@@ -1,6 +1,5 @@
-// import './styles.scss';
+import './styles.scss';
 
-// todo error "Module is not installed"
 import { UsaFooter } from '@nciocpl/ncids-js';
 
 // create all accordions
