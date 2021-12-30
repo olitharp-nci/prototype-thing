@@ -8,7 +8,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     // loop through each footer found and init (should only be one footer, no looping needed IRL)
     [...elements].forEach((element) => {
-        const footer = UsaFooter.create(element);
+        const footer = UsaFooter.create(element, {trigger: '.usa-footer__nci-primary-link--accordion-header' });
         console.log(footer);
 
         // when footer content toggles .hidden, do something

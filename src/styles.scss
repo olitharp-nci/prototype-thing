@@ -1,11 +1,17 @@
+// token overrides
+@import '@nciocpl/ncids-css/scss/base/settings/settings-color';
+
+// required
 @import '@nciocpl/ncids-css/scss/base/required';
 @import '@nciocpl/ncids-css/scss/base/normalize';
 @import '@nciocpl/ncids-css/scss/base/global';
 
+// dependencies
 @import 'uswds/dist/scss/elements/layout-grid';
 @import 'uswds/dist/scss/elements/form-controls/global';
 @import 'uswds/dist/scss/elements/form-controls/text-input';
 @import 'uswds/dist/scss/elements/typography/list';
 @import 'uswds/dist/scss/elements/buttons';
 
+// component
 @import '@nciocpl/ncids-css/scss/components/usa-footer/nci-big';
