@@ -1,6 +1,6 @@
 {
   "name": "prototype-thing",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Empty project.",
   "main": "src/index.js",
   "keywords": [],
@@ -16,8 +16,8 @@
     "lint": "eslint src"
   },
   "dependencies": {
-    "@nciocpl/ncids-css": "^0.1.0-alpha.35",
-    "@nciocpl/ncids-js": "^0.1.0-alpha.35",
+    "@nciocpl/ncids-css": "^0.1.0-alpha.36",
+    "@nciocpl/ncids-js": "^0.1.0-alpha.36",
     "uswds": "^2.13.0"
   },
   "devDependencies": {
