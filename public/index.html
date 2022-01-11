@@ -98,6 +98,7 @@
                                             class='usa-footer__primary-link usa-footer__nci-primary-link--list-header'>Primary link 3</span>
                                     </h4>
                                     <ul
+                                        id='accordion3'
                                         aria-label='Primary link 3'
                                         class='usa-list usa-list--unstyled'>
                                         <li class='usa-footer__secondary-link'>
@@ -127,7 +128,8 @@
                             class='usa-form'
                             accept-charset='UTF-8'
                             method='post'
-                            target='_blank'>
+                            target='_blank'
+                            id='signup'>
                             <input
                                 type='hidden'
                                 name='category_id'
@@ -138,9 +140,7 @@
                                 <label class='usa-label usa-label--error' for='email'>
                                     Enter your email address
                                 </label>
-                                <span class='usa-error-message' id='email-error-message' role='alert'>
-									Enter a valid email address
-								</span>
+                                <span class='usa-error-message' id='email-error-message' role='alert'>Enter a valid email address</span>
                                 <input
                                     class='usa-input usa-input--error width-full'
                                     aria-describedby='email-error-message'
@@ -165,12 +165,8 @@
                 <div class=' usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2 '>
                     <div class='mobile-lg:grid-col-auto mobile-lg:margin-bottom-3'>
                         <p class='usa-footer__logo-heading'>
-							<span class='logo__agency-name'>
-								National Cancer Institute
-							</span>
-                            <span class='logo__parent-organization'>
-								at the National Institute of Health
-							</span>
+                            <span class='logo__agency-name'>National Cancer Institute</span>
+                            <span class='logo__parent-organization'>at the National Institute of Health</span>
                         </p>
                     </div>
                 </div>
