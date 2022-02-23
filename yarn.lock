@@ -1160,10 +1160,10 @@
     eslint-plugin-prettier "^3.4.0"
     prettier "^2.2.1"
 
-"@nciocpl/ncids-css@^0.1.0-alpha.43":
-  version "0.1.0-alpha.43"
-  resolved "https://npm.pkg.github.com/download/@nciocpl/ncids-css/0.1.0-alpha.43/da4ca3be044c690fe555115a8f723bb65524fd4600a037a52cda5cc353b477c5#63c7fb40177db42fa263d7d3d247bb7ded29d847"
-  integrity sha512-flELj/GM9vQjyUlYbkwxFtMCAZyYjQBV7V+ygzBBD0X+73yNH49LVyEdFnnuEmgYTIIc02jxLuxxJLH5nV/BOQ==
+"@nciocpl/ncids-css@^0.1.0-alpha.46":
+  version "0.1.0-alpha.46"
+  resolved "https://npm.pkg.github.com/download/@nciocpl/ncids-css/0.1.0-alpha.46/8b2945a6f4ef78493a2eb0613aac27955d314a9adad0ec38c3708767f1d2a6f8#ba97e4c8cc2de0fae6bf640f0ce12e2ae075736c"
+  integrity sha512-AuBSvDzZgaOcS3/HvPEjiWdR2L2wHRQQNaeS77RzKa/p20Mx90k3SCWOG/Y3nuTENTCge7dZiYipVm6v0ZSkGQ==
   dependencies:
     classlist-polyfill "^1.0.3"
     del "^6.0.0"
@@ -1175,10 +1175,10 @@
     resolve-id-refs "^0.1.0"
     uswds "^2.12.0"
 
-"@nciocpl/ncids-js@^0.1.0-alpha.43":
-  version "0.1.0-alpha.43"
-  resolved "https://npm.pkg.github.com/download/@nciocpl/ncids-js/0.1.0-alpha.43/d8304feceb785fbef4c9986def0bd08526e5603391bd36336534dbc4db167a8a#1f2b74d6c7b770dcc8a06b9239fc98ad6266c765"
-  integrity sha512-vjRlbplP5tT2wibqvxLIMhyOgdP3TknIKskEwMdgzSrNbWij+nItkRGCl7tQaZnIEP2zooeOznONYnL3BdextA==
+"@nciocpl/ncids-js@^0.1.0-alpha.46":
+  version "0.1.0-alpha.46"
+  resolved "https://npm.pkg.github.com/download/@nciocpl/ncids-js/0.1.0-alpha.46/1f18a5e962111bb9b205e7c764c9d9ac8d83429ae06eb6263f78604704e38b11#997403476a374f8957c8475f4d217879acd5af49"
+  integrity sha512-U8yu+jqUSjLHM88+WGdt24x1xAa0jFD1YXcLQeNI0taYCU6slwzYWFFKefuMtNvpmXju6X60ixVR05rQt6D2PQ==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
